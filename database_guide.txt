@@ -1,0 +1,88 @@
+数据库：PostgreSQL
+
+当前允许查询四个视图：
+1. public.order_analysis
+2. public.order_item_category_analysis
+3. public.delivery_review_analysis
+4. public.monthly_customer_analysis
+
+每次查询只能使用其中一个视图，不支持 JOIN、WITH 或子查询。
+
+视图一：public.order_analysis
+粒度：每行代表一笔订单。
+
+主要字段：
+- order_id：订单 ID。
+- customer_id：订单关联的客户记录 ID；它不能跨订单识别真实用户，不可用于真实用户数或复购分析。
+- order_status：订单状态。
+- order_purchase_timestamp：下单时间。
+- order_delivered_customer_date：实际交付时间。
+- order_estimated_delivery_date：预计交付时间。
+- item_count：订单中的商品明细数量。
+- product_amount：订单商品金额，不含运费。
+- freight_amount：订单运费金额。
+- payment_amount：订单支付金额。
+
+视图二：public.order_item_category_analysis
+粒度：每行代表一条订单商品明细。
+
+主要字段：
+- order_id：订单 ID。
+- order_status：订单状态。
+- order_purchase_timestamp：下单时间。
+- order_item_id：订单内的商品明细编号。
+- product_id：商品 ID。
+- product_amount：该条商品明细的商品金额，不含运费。
+- freight_amount：该条商品明细的运费金额。
+- category_original：原始品类名称。
+- category_name：优先使用英文翻译的品类名称。
+
+视图三：public.delivery_review_analysis
+粒度：每行代表一笔已交付、且实际与预计交付日期均不为空的订单。
+
+主要字段：
+- order_id：订单 ID。
+- order_purchase_timestamp：下单时间。
+- order_delivered_customer_date：实际交付时间。
+- order_estimated_delivery_date：预计交付时间。
+- delivery_status：交付状态，late 表示延迟，on_time 表示按时。
+- review_score：该订单最新一条有效评价的评分，可能为空。
+
+物流评价口径：
+- 实际交付日期晚于预计交付日期，才记为 late。
+- 如果问题涉及按时与延迟订单的评价，使用本视图。
+- 本视图已限定已交付订单，且没有 order_status 字段，不要再添加状态筛选。
+- AVG(review_score) 只对评分非空的订单计算平均分。
+- COUNT(review_score) 统计有有效评分的订单数。
+- 评分差异只能描述关联，不能直接认定因果关系。
+
+视图四：public.monthly_customer_analysis
+粒度：每行代表一个下单月份，以 order_month 表示该月第一天。
+只统计已交付订单，已按 customer_unique_id 识别真实用户；视图不暴露个人 ID。
+- order_month：月份，DATE 类型，值为该月第一天。
+- monthly_customers：当月至少一笔已交付订单的不同用户数。
+- repeat_customers：当月至少两笔已交付订单的不同用户数。
+- repeat_customer_pct：repeat_customers / monthly_customers × 100，百分比数值，保留两位小数。
+- 不含 order_status 和 order_purchase_timestamp，无需添加订单状态筛选。
+- 当月复购不要求订单间隔达到 24 小时。
+- 单月客户数或复购数可直接查询对应月份的字段。
+- 不可把各月用户数或复购数相加作为跨月去重人数；本视图无法回答跨月去重用户数、跨月复购和 24 小时后复购人数。
+
+视图选择规则：
+- 问订单整体数量或订单级金额，优先使用 order_analysis。
+- 问商品品类销售额，使用 order_item_category_analysis。
+- 单月真实用户数和月内复购使用 monthly_customer_analysis；其他无法从月度汇总回答的跨月用户问题应拒答，绝不能用 customer_id 代替真实用户 ID。
+- 在商品明细视图中统计订单数量时，应使用 COUNT(DISTINCT order_id)，
+  因为同一笔订单可能有多条商品明细。
+
+数据时间范围：
+订单下单时间约为 2016-09-04 至 2018-10-17。
+
+默认分析口径：
+- 除非用户明确指定其他状态，默认只统计已交付订单；前两个视图使用 order_status = 'delivered'，物流评价和月度用户视图已预先筛选，无需再次筛选。
+- 按时间统计时，前三个视图使用下单时间 order_purchase_timestamp；月度用户视图使用 order_month。
+- 商品销售额使用 SUM(product_amount)，不含运费。
+- 支付金额使用 SUM(payment_amount)，不要与商品销售额混用。
+- 用户没有说明时间范围时，不要擅自假定为数据中的最近三个月。
+- 当前视图无法回答的问题，应说明无法回答。
+- 不要编造字段或数据。

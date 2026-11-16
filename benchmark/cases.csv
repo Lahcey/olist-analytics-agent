@@ -1,0 +1,281 @@
+﻿id,family,period,kind,question,expected_rows
+order_count_201701,order_count,2017-01-01,answerable,2017年1月已交付订单有多少笔？只返回订单数。,[[750]]
+product_sales_201701,product_sales,2017-01-01,answerable,2017年1月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""111798.36""]]"
+freight_201701,freight,2017-01-01,answerable,2017年1月已交付订单的运费总金额是多少？只返回运费总额。,"[[""15684.01""]]"
+payment_201701,payment,2017-01-01,answerable,2017年1月已交付订单的支付总金额是多少？只返回支付总额。,"[[""127545.67""]]"
+average_product_201701,average_product,2017-01-01,answerable,2017年1月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""149.0644800000000000""]]"
+category_top3_201701,category_top3,2017-01-01,answerable,2017年1月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""furniture_decor"", ""13036.63""], [""health_beauty"", ""12366.44""], [""sports_leisure"", ""9212.14""]]"
+category_health_201701,category_health,2017-01-01,answerable,2017年1月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""12366.44""]]"
+late_orders_201701,late_orders,2017-01-01,answerable,2017年1月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[22]]
+delivery_reviews_201701,delivery_reviews,2017-01-01,answerable,2017年1月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 21, ""1.9523809523809524""], [""on_time"", 720, ""4.2638888888888889""]]"
+monthly_users_201701,monthly_users,2017-01-01,answerable,2017年1月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[718]]
+monthly_repeat_201701,monthly_repeat,2017-01-01,answerable,2017年1月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[23]]
+monthly_repeat_pct_201701,monthly_repeat_pct,2017-01-01,answerable,2017年1月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""3.20""]]"
+order_count_201702,order_count,2017-02-01,answerable,2017年2月已交付订单有多少笔？只返回订单数。,[[1653]]
+product_sales_201702,product_sales,2017-02-01,answerable,2017年2月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""234223.40""]]"
+freight_201702,freight,2017-02-01,answerable,2017年2月已交付订单的运费总金额是多少？只返回运费总额。,"[[""37015.92""]]"
+payment_201702,payment,2017-02-01,answerable,2017年2月已交付订单的支付总金额是多少？只返回支付总额。,"[[""271298.65""]]"
+average_product_201702,average_product,2017-02-01,answerable,2017年2月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""141.6959467634603751""]]"
+category_top3_201702,category_top3,2017-02-01,answerable,2017年2月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""health_beauty"", ""22059.92""], [""furniture_decor"", ""19926.41""], [""sports_leisure"", ""15629.98""]]"
+category_health_201702,category_health,2017-02-01,answerable,2017年2月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""22059.92""]]"
+late_orders_201702,late_orders,2017-02-01,answerable,2017年2月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[49]]
+delivery_reviews_201702,delivery_reviews,2017-02-01,answerable,2017年2月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 42, ""2.1428571428571429""], [""on_time"", 1601, ""4.2573391630231106""]]"
+monthly_users_201702,monthly_users,2017-02-01,answerable,2017年2月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[1630]]
+monthly_repeat_201702,monthly_repeat,2017-02-01,answerable,2017年2月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[20]]
+monthly_repeat_pct_201702,monthly_repeat_pct,2017-02-01,answerable,2017年2月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.23""]]"
+order_count_201703,order_count,2017-03-01,answerable,2017年3月已交付订单有多少笔？只返回订单数。,[[2546]]
+product_sales_201703,product_sales,2017-03-01,answerable,2017年3月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""359198.85""]]"
+freight_201703,freight,2017-03-01,answerable,2017年3月已交付订单的运费总金额是多少？只返回运费总额。,"[[""55132.10""]]"
+payment_201703,payment,2017-03-01,answerable,2017年3月已交付订单的支付总金额是多少？只返回支付总额。,"[[""414369.39""]]"
+average_product_201703,average_product,2017-03-01,answerable,2017年3月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""141.0836017282010998""]]"
+category_top3_201703,category_top3,2017-03-01,answerable,2017年3月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""computers_accessories"", ""28078.80""], [""health_beauty"", ""25652.45""], [""sports_leisure"", ""25472.89""]]"
+category_health_201703,category_health,2017-03-01,answerable,2017年3月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""25652.45""]]"
+late_orders_201703,late_orders,2017-03-01,answerable,2017年3月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[116]]
+delivery_reviews_201703,delivery_reviews,2017-03-01,answerable,2017年3月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 113, ""2.3893805309734513""], [""on_time"", 2414, ""4.2709196354598177""]]"
+monthly_users_201703,monthly_users,2017-03-01,answerable,2017年3月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[2508]]
+monthly_repeat_201703,monthly_repeat,2017-03-01,answerable,2017年3月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[37]]
+monthly_repeat_pct_201703,monthly_repeat_pct,2017-03-01,answerable,2017年3月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.48""]]"
+order_count_201704,order_count,2017-04-01,answerable,2017年4月已交付订单有多少笔？只返回订单数。,[[2303]]
+product_sales_201704,product_sales,2017-04-01,answerable,2017年4月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""340669.68""]]"
+freight_201704,freight,2017-04-01,answerable,2017年4月已交付订单的运费总金额是多少？只返回运费总额。,"[[""50142.72""]]"
+payment_201704,payment,2017-04-01,answerable,2017年4月已交付订单的支付总金额是多少？只返回支付总额。,"[[""390952.18""]]"
+average_product_201704,average_product,2017-04-01,answerable,2017年4月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""147.9243074250976987""]]"
+category_top3_201704,category_top3,2017-04-01,answerable,2017年4月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""bed_bath_table"", ""24092.89""], [""watches_gifts"", ""23336.09""], [""small_appliances"", ""23114.98""]]"
+category_health_201704,category_health,2017-04-01,answerable,2017年4月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""22156.34""]]"
+late_orders_201704,late_orders,2017-04-01,answerable,2017年4月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[151]]
+delivery_reviews_201704,delivery_reviews,2017-04-01,answerable,2017年4月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 147, ""2.4557823129251701""], [""on_time"", 2143, ""4.2505832944470369""]]"
+monthly_users_201704,monthly_users,2017-04-01,answerable,2017年4月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[2274]]
+monthly_repeat_201704,monthly_repeat,2017-04-01,answerable,2017年4月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[26]]
+monthly_repeat_pct_201704,monthly_repeat_pct,2017-04-01,answerable,2017年4月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.14""]]"
+order_count_201705,order_count,2017-05-01,answerable,2017年5月已交付订单有多少笔？只返回订单数。,[[3546]]
+product_sales_201705,product_sales,2017-05-01,answerable,2017年5月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""489338.25""]]"
+freight_201705,freight,2017-05-01,answerable,2017年5月已交付订单的运费总金额是多少？只返回运费总额。,"[[""77513.15""]]"
+payment_201705,payment,2017-05-01,answerable,2017年5月已交付订单的支付总金额是多少？只返回支付总额。,"[[""567066.73""]]"
+average_product_201705,average_product,2017-05-01,answerable,2017年5月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""137.9972504230118443""]]"
+category_top3_201705,category_top3,2017-05-01,answerable,2017年5月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""health_beauty"", ""46340.06""], [""computers_accessories"", ""44759.39""], [""watches_gifts"", ""36619.48""]]"
+category_health_201705,category_health,2017-05-01,answerable,2017年5月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""46340.06""]]"
+late_orders_201705,late_orders,2017-05-01,answerable,2017年5月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[106]]
+delivery_reviews_201705,delivery_reviews,2017-05-01,answerable,2017年5月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 99, ""2.7373737373737374""], [""on_time"", 3418, ""4.2796957284961966""]]"
+monthly_users_201705,monthly_users,2017-05-01,answerable,2017年5月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[3479]]
+monthly_repeat_201705,monthly_repeat,2017-05-01,answerable,2017年5月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[66]]
+monthly_repeat_pct_201705,monthly_repeat_pct,2017-05-01,answerable,2017年5月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.90""]]"
+order_count_201706,order_count,2017-06-01,answerable,2017年6月已交付订单有多少笔？只返回订单数。,[[3135]]
+product_sales_201706,product_sales,2017-06-01,answerable,2017年6月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""421923.37""]]"
+freight_201706,freight,2017-06-01,answerable,2017年6月已交付订单的运费总金额是多少？只返回运费总额。,"[[""68127.00""]]"
+payment_201706,payment,2017-06-01,answerable,2017年6月已交付订单的支付总金额是多少？只返回支付总额。,"[[""490225.60""]]"
+average_product_201706,average_product,2017-06-01,answerable,2017年6月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""134.5848070175438596""]]"
+category_top3_201706,category_top3,2017-06-01,answerable,2017年6月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""cool_stuff"", ""38109.61""], [""computers_accessories"", ""36193.70""], [""bed_bath_table"", ""33803.23""]]"
+category_health_201706,category_health,2017-06-01,answerable,2017年6月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""31676.81""]]"
+late_orders_201706,late_orders,2017-06-01,answerable,2017年6月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[95]]
+delivery_reviews_201706,delivery_reviews,2017-06-01,answerable,2017年6月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 92, ""2.4347826086956522""], [""on_time"", 3019, ""4.2772441205697251""]]"
+monthly_users_201706,monthly_users,2017-06-01,answerable,2017年6月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[3076]]
+monthly_repeat_201706,monthly_repeat,2017-06-01,answerable,2017年6月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[58]]
+monthly_repeat_pct_201706,monthly_repeat_pct,2017-06-01,answerable,2017年6月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.89""]]"
+order_count_201707,order_count,2017-07-01,answerable,2017年7月已交付订单有多少笔？只返回订单数。,[[3872]]
+product_sales_201707,product_sales,2017-07-01,answerable,2017年7月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""481604.52""]]"
+freight_201707,freight,2017-07-01,answerable,2017年7月已交付订单的运费总金额是多少？只返回运费总额。,"[[""84694.56""]]"
+payment_201707,payment,2017-07-01,answerable,2017年7月已交付订单的支付总金额是多少？只返回支付总额。,"[[""566403.93""]]"
+average_product_201707,average_product,2017-07-01,answerable,2017年7月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""124.3813326446280992""]]"
+category_top3_201707,category_top3,2017-07-01,answerable,2017年7月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""bed_bath_table"", ""62786.96""], [""computers_accessories"", ""38176.22""], [""cool_stuff"", ""36653.46""]]"
+category_health_201707,category_health,2017-07-01,answerable,2017年7月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""34239.45""]]"
+late_orders_201707,late_orders,2017-07-01,answerable,2017年7月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[108]]
+delivery_reviews_201707,delivery_reviews,2017-07-01,answerable,2017年7月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 105, ""2.2476190476190476""], [""on_time"", 3737, ""4.3160289001873160""]]"
+monthly_users_201707,monthly_users,2017-07-01,answerable,2017年7月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[3802]]
+monthly_repeat_201707,monthly_repeat,2017-07-01,answerable,2017年7月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[68]]
+monthly_repeat_pct_201707,monthly_repeat_pct,2017-07-01,answerable,2017年7月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.79""]]"
+order_count_201708,order_count,2017-08-01,answerable,2017年8月已交付订单有多少笔？只返回订单数。,[[4193]]
+product_sales_201708,product_sales,2017-08-01,answerable,2017年8月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""554699.70""]]"
+freight_201708,freight,2017-08-01,answerable,2017年8月已交付订单的运费总金额是多少？只返回运费总额。,"[[""91132.66""]]"
+payment_201708,payment,2017-08-01,answerable,2017年8月已交付订单的支付总金额是多少？只返回支付总额。,"[[""646000.61""]]"
+average_product_201708,average_product,2017-08-01,answerable,2017年8月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""132.2918435487717625""]]"
+category_top3_201708,category_top3,2017-08-01,answerable,2017年8月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""bed_bath_table"", ""56580.63""], [""health_beauty"", ""49030.23""], [""sports_leisure"", ""40624.77""]]"
+category_health_201708,category_health,2017-08-01,answerable,2017年8月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""49030.23""]]"
+late_orders_201708,late_orders,2017-08-01,answerable,2017年8月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[122]]
+delivery_reviews_201708,delivery_reviews,2017-08-01,answerable,2017年8月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 121, ""2.6528925619834711""], [""on_time"", 4044, ""4.3625123639960435""]]"
+monthly_users_201708,monthly_users,2017-08-01,answerable,2017年8月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[4114]]
+monthly_repeat_201708,monthly_repeat,2017-08-01,answerable,2017年8月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[73]]
+monthly_repeat_pct_201708,monthly_repeat_pct,2017-08-01,answerable,2017年8月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.77""]]"
+order_count_201709,order_count,2017-09-01,answerable,2017年9月已交付订单有多少笔？只返回订单数。,[[4150]]
+product_sales_201709,product_sales,2017-09-01,answerable,2017年9月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""607399.67""]]"
+freight_201709,freight,2017-09-01,answerable,2017年9月已交付订单的运费总金额是多少？只返回运费总额。,"[[""93677.82""]]"
+payment_201709,payment,2017-09-01,answerable,2017年9月已交付订单的支付总金额是多少？只返回支付总额。,"[[""701169.99""]]"
+average_product_201709,average_product,2017-09-01,answerable,2017年9月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""146.3613662650602410""]]"
+category_top3_201709,category_top3,2017-09-01,answerable,2017年9月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""bed_bath_table"", ""52105.61""], [""computers"", ""51228.89""], [""health_beauty"", ""50649.16""]]"
+category_health_201709,category_health,2017-09-01,answerable,2017年9月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""50649.16""]]"
+late_orders_201709,late_orders,2017-09-01,answerable,2017年9月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[182]]
+delivery_reviews_201709,delivery_reviews,2017-09-01,answerable,2017年9月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 177, ""2.5932203389830508""], [""on_time"", 3941, ""4.3430601370210606""]]"
+monthly_users_201709,monthly_users,2017-09-01,answerable,2017年9月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[4083]]
+monthly_repeat_201709,monthly_repeat,2017-09-01,answerable,2017年9月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[63]]
+monthly_repeat_pct_201709,monthly_repeat_pct,2017-09-01,answerable,2017年9月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.54""]]"
+order_count_201710,order_count,2017-10-01,answerable,2017年10月已交付订单有多少笔？只返回订单数。,[[4478]]
+product_sales_201710,product_sales,2017-10-01,answerable,2017年10月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""648247.65""]]"
+freight_201710,freight,2017-10-01,answerable,2017年10月已交付订单的运费总金额是多少？只返回运费总额。,"[[""102869.36""]]"
+payment_201710,payment,2017-10-01,answerable,2017年10月已交付订单的支付总金额是多少？只返回支付总额。,"[[""751140.27""]]"
+average_product_201710,average_product,2017-10-01,answerable,2017年10月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""144.7627623939258598""]]"
+category_top3_201710,category_top3,2017-10-01,answerable,2017年10月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""watches_gifts"", ""64874.63""], [""sports_leisure"", ""48568.98""], [""bed_bath_table"", ""46007.70""]]"
+category_health_201710,category_health,2017-10-01,answerable,2017年10月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""40698.99""]]"
+late_orders_201710,late_orders,2017-10-01,answerable,2017年10月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[187]]
+delivery_reviews_201710,delivery_reviews,2017-10-01,answerable,2017年10月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 179, ""2.5474860335195531""], [""on_time"", 4267, ""4.2744316850246075""]]"
+monthly_users_201710,monthly_users,2017-10-01,answerable,2017年10月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[4417]]
+monthly_repeat_201710,monthly_repeat,2017-10-01,answerable,2017年10月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[60]]
+monthly_repeat_pct_201710,monthly_repeat_pct,2017-10-01,answerable,2017年10月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.36""]]"
+order_count_201711,order_count,2017-11-01,answerable,2017年11月已交付订单有多少笔？只返回订单数。,[[7289]]
+product_sales_201711,product_sales,2017-11-01,answerable,2017年11月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""987765.37""]]"
+freight_201711,freight,2017-11-01,answerable,2017年11月已交付订单的运费总金额是多少？只返回运费总额。,"[[""165598.83""]]"
+payment_201711,payment,2017-11-01,answerable,2017年11月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1153528.05""]]"
+average_product_201711,average_product,2017-11-01,answerable,2017年11月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""135.5145246261489916""]]"
+category_top3_201711,category_top3,2017-11-01,answerable,2017年11月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""watches_gifts"", ""95292.34""], [""bed_bath_table"", ""87957.63""], [""health_beauty"", ""78274.40""]]"
+category_health_201711,category_health,2017-11-01,answerable,2017年11月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""78274.40""]]"
+late_orders_201711,late_orders,2017-11-01,answerable,2017年11月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[904]]
+delivery_reviews_201711,delivery_reviews,2017-11-01,answerable,2017年11月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 887, ""2.1961668545659526""], [""on_time"", 6350, ""4.2392125984251969""]]"
+monthly_users_201711,monthly_users,2017-11-01,answerable,2017年11月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[7183]]
+monthly_repeat_201711,monthly_repeat,2017-11-01,answerable,2017年11月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[101]]
+monthly_repeat_pct_201711,monthly_repeat_pct,2017-11-01,answerable,2017年11月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.41""]]"
+order_count_201712,order_count,2017-12-01,answerable,2017年12月已交付订单有多少笔？只返回订单数。,[[5513]]
+product_sales_201712,product_sales,2017-12-01,answerable,2017年12月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""726033.19""]]"
+freight_201712,freight,2017-12-01,answerable,2017年12月已交付订单的运费总金额是多少？只返回运费总额。,"[[""117045.10""]]"
+payment_201712,payment,2017-12-01,answerable,2017年12月已交付订单的支付总金额是多少？只返回支付总额。,"[[""843199.17""]]"
+average_product_201712,average_product,2017-12-01,answerable,2017年12月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""131.6947560311989842""]]"
+category_top3_201712,category_top3,2017-12-01,answerable,2017年12月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""watches_gifts"", ""69556.92""], [""health_beauty"", ""60688.75""], [""sports_leisure"", ""58722.48""]]"
+category_health_201712,category_health,2017-12-01,answerable,2017年12月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""60688.75""]]"
+late_orders_201712,late_orders,2017-12-01,answerable,2017年12月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[411]]
+delivery_reviews_201712,delivery_reviews,2017-12-01,answerable,2017年12月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 401, ""2.1147132169576060""], [""on_time"", 5060, ""4.2448616600790514""]]"
+monthly_users_201712,monthly_users,2017-12-01,answerable,2017年12月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[5450]]
+monthly_repeat_201712,monthly_repeat,2017-12-01,answerable,2017年12月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[59]]
+monthly_repeat_pct_201712,monthly_repeat_pct,2017-12-01,answerable,2017年12月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.08""]]"
+order_count_201801,order_count,2018-01-01,answerable,2018年1月已交付订单有多少笔？只返回订单数。,[[7069]]
+product_sales_201801,product_sales,2018-01-01,answerable,2018年1月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""924645.00""]]"
+freight_201801,freight,2018-01-01,answerable,2018年1月已交付订单的运费总金额是多少？只返回运费总额。,"[[""153242.46""]]"
+payment_201801,payment,2018-01-01,answerable,2018年1月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1078606.86""]]"
+average_product_201801,average_product,2018-01-01,answerable,2018年1月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""130.8028009619465271""]]"
+category_top3_201801,category_top3,2018-01-01,answerable,2018年1月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""sports_leisure"", ""86172.83""], [""computers_accessories"", ""80503.87""], [""bed_bath_table"", ""75408.13""]]"
+category_health_201801,category_health,2018-01-01,answerable,2018年1月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""71405.60""]]"
+late_orders_201801,late_orders,2018-01-01,answerable,2018年1月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[403]]
+delivery_reviews_201801,delivery_reviews,2018-01-01,answerable,2018年1月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 396, ""2.0126262626262626""], [""on_time"", 6617, ""4.2339428744143872""]]"
+monthly_users_201801,monthly_users,2018-01-01,answerable,2018年1月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6974]]
+monthly_repeat_201801,monthly_repeat,2018-01-01,answerable,2018年1月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[94]]
+monthly_repeat_pct_201801,monthly_repeat_pct,2018-01-01,answerable,2018年1月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.35""]]"
+order_count_201802,order_count,2018-02-01,answerable,2018年2月已交付订单有多少笔？只返回订单数。,[[6555]]
+product_sales_201802,product_sales,2018-02-01,answerable,2018年2月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""826437.13""]]"
+freight_201802,freight,2018-02-01,answerable,2018年2月已交付订单的运费总金额是多少？只返回运费总额。,"[[""139731.28""]]"
+payment_201802,payment,2018-02-01,answerable,2018年2月已交付订单的支付总金额是多少？只返回支付总额。,"[[""966510.88""]]"
+average_product_201802,average_product,2018-02-01,answerable,2018年2月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""126.0773653699466056""]]"
+category_top3_201802,category_top3,2018-02-01,answerable,2018年2月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""computers_accessories"", ""100131.99""], [""health_beauty"", ""84576.55""], [""sports_leisure"", ""74540.95""]]"
+category_health_201802,category_health,2018-02-01,answerable,2018年2月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""84576.55""]]"
+late_orders_201802,late_orders,2018-02-01,answerable,2018年2月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[926]]
+delivery_reviews_201802,delivery_reviews,2018-02-01,answerable,2018年2月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 912, ""1.9111842105263158""], [""on_time"", 5595, ""4.2016085790884718""]]"
+monthly_users_201802,monthly_users,2018-02-01,answerable,2018年2月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6400]]
+monthly_repeat_201802,monthly_repeat,2018-02-01,answerable,2018年2月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[146]]
+monthly_repeat_pct_201802,monthly_repeat_pct,2018-02-01,answerable,2018年2月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""2.28""]]"
+order_count_201803,order_count,2018-03-01,answerable,2018年3月已交付订单有多少笔？只返回订单数。,[[7003]]
+product_sales_201803,product_sales,2018-03-01,answerable,2018年3月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""953356.25""]]"
+freight_201803,freight,2018-03-01,answerable,2018年3月已交付订单的运费总金额是多少？只返回运费总额。,"[[""167241.99""]]"
+payment_201803,payment,2018-03-01,answerable,2018年3月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1120678.00""]]"
+average_product_201803,average_product,2018-03-01,answerable,2018年3月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""136.1354062544623733""]]"
+category_top3_201803,category_top3,2018-03-01,answerable,2018年3月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""watches_gifts"", ""95661.18""], [""computers_accessories"", ""84708.39""], [""health_beauty"", ""84488.57""]]"
+category_health_201803,category_health,2018-03-01,answerable,2018年3月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""84488.57""]]"
+late_orders_201803,late_orders,2018-03-01,answerable,2018年3月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[1328]]
+delivery_reviews_201803,delivery_reviews,2018-03-01,answerable,2018年3月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 1296, ""2.0686728395061728""], [""on_time"", 5652, ""4.2124911535739561""]]"
+monthly_users_201803,monthly_users,2018-03-01,answerable,2018年3月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6914]]
+monthly_repeat_201803,monthly_repeat,2018-03-01,answerable,2018年3月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[88]]
+monthly_repeat_pct_201803,monthly_repeat_pct,2018-03-01,answerable,2018年3月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""1.27""]]"
+order_count_201804,order_count,2018-04-01,answerable,2018年4月已交付订单有多少笔？只返回订单数。,[[6798]]
+product_sales_201804,product_sales,2018-04-01,answerable,2018年4月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""973534.09""]]"
+freight_201804,freight,2018-04-01,answerable,2018年4月已交付订单的运费总金额是多少？只返回运费总额。,"[[""159344.84""]]"
+payment_201804,payment,2018-04-01,answerable,2018年4月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1132933.95""]]"
+average_product_201804,average_product,2018-04-01,answerable,2018年4月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""143.2088982053545160""]]"
+category_top3_201804,category_top3,2018-04-01,answerable,2018年4月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""health_beauty"", ""91058.45""], [""watches_gifts"", ""88623.07""], [""bed_bath_table"", ""71379.61""]]"
+category_health_201804,category_health,2018-04-01,answerable,2018年4月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""91058.45""]]"
+late_orders_201804,late_orders,2018-04-01,answerable,2018年4月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[306]]
+delivery_reviews_201804,delivery_reviews,2018-04-01,answerable,2018年4月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 297, ""2.2323232323232323""], [""on_time"", 6455, ""4.2966692486444617""]]"
+monthly_users_201804,monthly_users,2018-04-01,answerable,2018年4月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6744]]
+monthly_repeat_201804,monthly_repeat,2018-04-01,answerable,2018年4月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[52]]
+monthly_repeat_pct_201804,monthly_repeat_pct,2018-04-01,answerable,2018年4月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""0.77""]]"
+order_count_201805,order_count,2018-05-01,answerable,2018年5月已交付订单有多少笔？只返回订单数。,[[6749]]
+product_sales_201805,product_sales,2018-05-01,answerable,2018年5月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""977544.69""]]"
+freight_201805,freight,2018-05-01,answerable,2018年5月已交付订单的运费总金额是多少？只返回运费总额。,"[[""151229.83""]]"
+payment_201805,payment,2018-05-01,answerable,2018年5月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1128836.69""]]"
+average_product_201805,average_product,2018-05-01,answerable,2018年5月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""144.8428937620388206""]]"
+category_top3_201805,category_top3,2018-05-01,answerable,2018年5月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""watches_gifts"", ""119364.98""], [""health_beauty"", ""94534.38""], [""bed_bath_table"", ""71265.07""]]"
+category_health_201805,category_health,2018-05-01,answerable,2018年5月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""94534.38""]]"
+late_orders_201805,late_orders,2018-05-01,answerable,2018年5月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[443]]
+delivery_reviews_201805,delivery_reviews,2018-05-01,answerable,2018年5月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 437, ""2.7574370709382151""], [""on_time"", 6285, ""4.3392203659506762""]]"
+monthly_users_201805,monthly_users,2018-05-01,answerable,2018年5月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6693]]
+monthly_repeat_201805,monthly_repeat,2018-05-01,answerable,2018年5月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[53]]
+monthly_repeat_pct_201805,monthly_repeat_pct,2018-05-01,answerable,2018年5月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""0.79""]]"
+order_count_201806,order_count,2018-06-01,answerable,2018年6月已交付订单有多少笔？只返回订单数。,[[6099]]
+product_sales_201806,product_sales,2018-06-01,answerable,2018年6月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""856077.86""]]"
+freight_201806,freight,2018-06-01,answerable,2018年6月已交付订单的运费总金额是多少？只返回运费总额。,"[[""155900.43""]]"
+payment_201806,payment,2018-06-01,answerable,2018年6月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1012090.68""]]"
+average_product_201806,average_product,2018-06-01,answerable,2018年6月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""140.3636432202000328""]]"
+category_top3_201806,category_top3,2018-06-01,answerable,2018年6月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""health_beauty"", ""106745.72""], [""watches_gifts"", ""85027.57""], [""bed_bath_table"", ""70857.08""]]"
+category_health_201806,category_health,2018-06-01,answerable,2018年6月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""106745.72""]]"
+late_orders_201806,late_orders,2018-06-01,answerable,2018年6月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[71]]
+delivery_reviews_201806,delivery_reviews,2018-06-01,answerable,2018年6月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 71, ""2.3098591549295775""], [""on_time"", 6001, ""4.3309448425262456""]]"
+monthly_users_201806,monthly_users,2018-06-01,answerable,2018年6月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6061]]
+monthly_repeat_201806,monthly_repeat,2018-06-01,answerable,2018年6月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[37]]
+monthly_repeat_pct_201806,monthly_repeat_pct,2018-06-01,answerable,2018年6月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""0.61""]]"
+order_count_201807,order_count,2018-07-01,answerable,2018年7月已交付订单有多少笔？只返回订单数。,[[6159]]
+product_sales_201807,product_sales,2018-07-01,answerable,2018年7月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""867953.46""]]"
+freight_201807,freight,2018-07-01,answerable,2018年7月已交付订单的运费总金额是多少？只返回运费总额。,"[[""159853.82""]]"
+payment_201807,payment,2018-07-01,answerable,2018年7月已交付订单的支付总金额是多少？只返回支付总额。,"[[""1027903.86""]]"
+average_product_201807,average_product,2018-07-01,answerable,2018年7月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""140.9244130540672187""]]"
+category_top3_201807,category_top3,2018-07-01,answerable,2018年7月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""health_beauty"", ""103524.22""], [""watches_gifts"", ""95164.79""], [""housewares"", ""62583.30""]]"
+category_health_201807,category_health,2018-07-01,answerable,2018年7月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""103524.22""]]"
+late_orders_201807,late_orders,2018-07-01,answerable,2018年7月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[208]]
+delivery_reviews_201807,delivery_reviews,2018-07-01,answerable,2018年7月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 200, ""2.7550000000000000""], [""on_time"", 5918, ""4.3702264278472457""]]"
+monthly_users_201807,monthly_users,2018-07-01,answerable,2018年7月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6100]]
+monthly_repeat_201807,monthly_repeat,2018-07-01,answerable,2018年7月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[58]]
+monthly_repeat_pct_201807,monthly_repeat_pct,2018-07-01,answerable,2018年7月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""0.95""]]"
+order_count_201808,order_count,2018-08-01,answerable,2018年8月已交付订单有多少笔？只返回订单数。,[[6351]]
+product_sales_201808,product_sales,2018-08-01,answerable,2018年8月已交付订单的商品销售额是多少？不含运费，只返回商品销售额。,"[[""838576.64""]]"
+freight_201808,freight,2018-08-01,answerable,2018年8月已交付订单的运费总金额是多少？只返回运费总额。,"[[""146915.00""]]"
+payment_201808,payment,2018-08-01,answerable,2018年8月已交付订单的支付总金额是多少？只返回支付总额。,"[[""985414.28""]]"
+average_product_201808,average_product,2018-08-01,answerable,2018年8月已交付订单的平均订单商品金额是多少？不含运费，不要四舍五入，只返回平均值。,"[[""132.0385199181231302""]]"
+category_top3_201808,category_top3,2018-08-01,answerable,2018年8月已交付订单的商品销售额最高的前三个品类是什么？按销售额降序、品类名升序排列，依次返回品类和销售额。,"[[""health_beauty"", ""119391.01""], [""watches_gifts"", ""69767.06""], [""bed_bath_table"", ""60891.09""]]"
+category_health_201808,category_health,2018-08-01,answerable,2018年8月已交付订单中 health_beauty 品类的商品销售额是多少？只返回金额。,"[[""119391.01""]]"
+late_orders_201808,late_orders,2018-08-01,answerable,2018年8月下单且已交付的订单中，实际交付日期晚于预计交付日期的有多少笔？只返回订单数。,[[393]]
+delivery_reviews_201808,delivery_reviews,2018-08-01,answerable,2018年8月下单的已交付订单，分别统计按时和延迟交付的有效评价数与平均评分。依次返回交付状态、评价数和平均评分，按交付状态升序排列，不要四舍五入。,"[[""late"", 385, ""2.9948051948051948""], [""on_time"", 5945, ""4.3954583683767872""]]"
+monthly_users_201808,monthly_users,2018-08-01,answerable,2018年8月至少下过一笔已交付订单的不同用户有多少人？只返回用户数。,[[6310]]
+monthly_repeat_201808,monthly_repeat,2018-08-01,answerable,2018年8月同一个月内下了两笔或以上已交付订单的不同用户有多少？只返回月内复购人数。,[[38]]
+monthly_repeat_pct_201808,monthly_repeat_pct,2018-08-01,answerable,2018年8月已交付订单用户中，同月下了两笔或以上已交付订单的用户占比百分数是多少？只返回百分比数值。,"[[""0.60""]]"
+refuse_ads_201801,refuse_ads,2018-01-01,unanswerable,2018年1月各广告渠道的投放成本是多少？,null
+refuse_ads_201802,refuse_ads,2018-02-01,unanswerable,2018年2月各广告渠道的投放成本是多少？,null
+refuse_ads_201803,refuse_ads,2018-03-01,unanswerable,2018年3月各广告渠道的投放成本是多少？,null
+refuse_ads_201804,refuse_ads,2018-04-01,unanswerable,2018年4月各广告渠道的投放成本是多少？,null
+refuse_ads_201805,refuse_ads,2018-05-01,unanswerable,2018年5月各广告渠道的投放成本是多少？,null
+refuse_views_201801,refuse_views,2018-01-01,unanswerable,2018年1月商品浏览用户中有多少比例完成购买？,null
+refuse_views_201802,refuse_views,2018-02-01,unanswerable,2018年2月商品浏览用户中有多少比例完成购买？,null
+refuse_views_201803,refuse_views,2018-03-01,unanswerable,2018年3月商品浏览用户中有多少比例完成购买？,null
+refuse_views_201804,refuse_views,2018-04-01,unanswerable,2018年4月商品浏览用户中有多少比例完成购买？,null
+refuse_views_201805,refuse_views,2018-05-01,unanswerable,2018年5月商品浏览用户中有多少比例完成购买？,null
+refuse_cross_month_users_201801,refuse_cross_month_users,2018-01-01,unanswerable,2018年1月与2月合计有多少不同用户下了已交付订单，每人只计一次？,null
+refuse_cross_month_users_201802,refuse_cross_month_users,2018-02-01,unanswerable,2018年2月与3月合计有多少不同用户下了已交付订单，每人只计一次？,null
+refuse_cross_month_users_201803,refuse_cross_month_users,2018-03-01,unanswerable,2018年3月与4月合计有多少不同用户下了已交付订单，每人只计一次？,null
+refuse_cross_month_users_201804,refuse_cross_month_users,2018-04-01,unanswerable,2018年4月与5月合计有多少不同用户下了已交付订单，每人只计一次？,null
+refuse_cross_month_users_201805,refuse_cross_month_users,2018-05-01,unanswerable,2018年5月与6月合计有多少不同用户下了已交付订单，每人只计一次？,null
+refuse_region_201801,refuse_region,2018-01-01,unanswerable,2018年1月巴西各州的商品销售额分别是多少？,null
+refuse_region_201802,refuse_region,2018-02-01,unanswerable,2018年2月巴西各州的商品销售额分别是多少？,null
+refuse_region_201803,refuse_region,2018-03-01,unanswerable,2018年3月巴西各州的商品销售额分别是多少？,null
+refuse_region_201804,refuse_region,2018-04-01,unanswerable,2018年4月巴西各州的商品销售额分别是多少？,null
+refuse_region_201805,refuse_region,2018-05-01,unanswerable,2018年5月巴西各州的商品销售额分别是多少？,null
+refuse_profit_201801,refuse_profit,2018-01-01,unanswerable,2018年1月的商品采购成本和销售利润分别是多少？,null
+refuse_profit_201802,refuse_profit,2018-02-01,unanswerable,2018年2月的商品采购成本和销售利润分别是多少？,null
+refuse_profit_201803,refuse_profit,2018-03-01,unanswerable,2018年3月的商品采购成本和销售利润分别是多少？,null
+refuse_profit_201804,refuse_profit,2018-04-01,unanswerable,2018年4月的商品采购成本和销售利润分别是多少？,null
+refuse_profit_201805,refuse_profit,2018-05-01,unanswerable,2018年5月的商品采购成本和销售利润分别是多少？,null
+refuse_user_age_201801,refuse_user_age,2018-01-01,unanswerable,2018年1月已交付订单用户的平均年龄是多少？,null
+refuse_user_age_201802,refuse_user_age,2018-02-01,unanswerable,2018年2月已交付订单用户的平均年龄是多少？,null
+refuse_user_age_201803,refuse_user_age,2018-03-01,unanswerable,2018年3月已交付订单用户的平均年龄是多少？,null
+refuse_user_age_201804,refuse_user_age,2018-04-01,unanswerable,2018年4月已交付订单用户的平均年龄是多少？,null
+refuse_user_age_201805,refuse_user_age,2018-05-01,unanswerable,2018年5月已交付订单用户的平均年龄是多少？,null
+refuse_24h_repeat_201801,refuse_24h_repeat,2018-01-01,unanswerable,2018年1月有多少用户在首笔订单至少24小时后再次下已交付订单？,null
+refuse_24h_repeat_201802,refuse_24h_repeat,2018-02-01,unanswerable,2018年2月有多少用户在首笔订单至少24小时后再次下已交付订单？,null
+refuse_24h_repeat_201803,refuse_24h_repeat,2018-03-01,unanswerable,2018年3月有多少用户在首笔订单至少24小时后再次下已交付订单？,null
+refuse_24h_repeat_201804,refuse_24h_repeat,2018-04-01,unanswerable,2018年4月有多少用户在首笔订单至少24小时后再次下已交付订单？,null
+refuse_24h_repeat_201805,refuse_24h_repeat,2018-05-01,unanswerable,2018年5月有多少用户在首笔订单至少24小时后再次下已交付订单？,null
+refuse_traffic_source_201801,refuse_traffic_source,2018-01-01,unanswerable,2018年1月通过搜索引擎进入网站的已交付订单数量是多少？,null
+refuse_traffic_source_201802,refuse_traffic_source,2018-02-01,unanswerable,2018年2月通过搜索引擎进入网站的已交付订单数量是多少？,null
+refuse_traffic_source_201803,refuse_traffic_source,2018-03-01,unanswerable,2018年3月通过搜索引擎进入网站的已交付订单数量是多少？,null
+refuse_traffic_source_201804,refuse_traffic_source,2018-04-01,unanswerable,2018年4月通过搜索引擎进入网站的已交付订单数量是多少？,null
+refuse_traffic_source_201805,refuse_traffic_source,2018-05-01,unanswerable,2018年5月通过搜索引擎进入网站的已交付订单数量是多少？,null
